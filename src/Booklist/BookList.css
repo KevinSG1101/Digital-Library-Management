@@ -1,0 +1,35 @@
+.book-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.book-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px;
+  flex-wrap: wrap;
+  
+}
+.book-img {
+  width: 120px;
+  border-radius: 8px;
+}
+.book-wrapper{
+  display: flex;
+  flex-direction: column;
+  flex: 25%;
+}
+.show-book-modal-button{
+  background-color: #42e46d;
+  border: #42e46d;
+  border-radius: 12px;
+  color: #fff;
+  width: 90px;
+  height: 40px;
+}
+.show-book-modal-button-wrapper{
+  display: flex;
+  justify-content: space-evenly;
+}
