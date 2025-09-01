@@ -1,0 +1,25 @@
+.add-modal-title {
+    color: #42e46d;
+    font-size: 25px;
+}
+.add-modal-inputs {
+  width: 350px;
+  height: 40px;
+  border-radius: 12px;
+  border: 2px solid #42e46d;
+}
+.add-modal-inputs::placeholder {
+  color: #42e46d;
+}
+.add-modal-button-Wrapper {
+  display: flex;
+  gap: 5px;
+}
+.add-modal-buttons {
+  background-color: #42e46d;
+  border: #42e46d;
+  border-radius: 12px;
+  color: #fff;
+  width: 90px;
+  height: 40px;
+}
