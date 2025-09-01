@@ -1,0 +1,26 @@
+.buttons-wrapper {
+  height: 100vh;
+    display: flex;
+    gap: 65px;
+    width: fit-content;
+    flex-direction: column;
+}
+.genre-button {
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+  border-width: 1px;
+  background-color: #3DCD58;
+  color: #fff;
+  border-color: #3DCD58;
+
+}
+.genre{
+  background-color: #fff;
+  position: fixed;
+  top: 85px;
+  padding: 20px
+}
+.book-logo{
+  fill: red !important;
+}
