@@ -1,0 +1,45 @@
+.book-content {
+  background-color: #eeeeee;
+  margin-top: 100px;
+  margin-left: 125px;
+  height: 100vh;
+  padding: 50px 30px;
+}
+.book-header {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.book-search {
+  display: flex;
+  gap: 30px;
+
+}
+.book-search-bar{
+  width: 350px;
+  height: 40px;
+  border-radius: 12px;
+  border: 2px solid #42E46D;
+
+}
+.book-search-bar::placeholder{
+  color: #42E46D;
+}
+
+.book-search-button {
+  background-color: #42e46d;
+  border: #42e46d;
+  border-radius: 12px;
+  color: #fff;
+  width: 90px;
+  height: 40px;
+}
+.book-add-button {
+  background-color: #42e46d;
+  border: #42e46d;
+  border-radius: 12px;
+  color: #fff;
+  width: 140px;
+  height: 40px;
+}
