@@ -1,0 +1,22 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 30px;
+    text-transform: uppercase;
+}
+.user-logo{
+    height: 35px;
+    width: 40px;
+    padding: 3px
+}
+.header-content{
+    display: flex;
+    margin-left: 125px;
+    justify-content: space-between;
+    align-items: center;
+    color: #3DCD58;
+
+}
